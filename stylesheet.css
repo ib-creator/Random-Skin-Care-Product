@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(252, 240, 240);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* parent element */
+#wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* children element */
+#generator-box {
+    height: 727px;
+    padding: 61px;
+    width: 100%;
+    background-color: white;
+    border-radius: 16px;
+
+}
+
+
+
+h1,
+h5 {
+    text-align: center;
+}
+
+h5 {
+    margin-top: 60px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+/* div that contains all of the buttons */
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    gap: 122px;
+}
+
+#dryskin-btn,
+#normalskin-btn,
+#oilyskin-btn {
+    padding: 25px;
+    border-radius: 7px;
+    background-color: rgb(252, 240, 240);
+
+}
