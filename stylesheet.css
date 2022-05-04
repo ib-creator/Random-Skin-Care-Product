@@ -5,6 +5,7 @@ body {
     justify-content: center;
     min-height: 100vh;
     font-family: 'Roboto', sans-serif;
+
 }
 
 
@@ -38,6 +39,8 @@ h5 {
     font-size: 20px;
 }
 
+
+
 /* div that contains all of the buttons */
 .buttons {
     display: flex;
@@ -47,11 +50,16 @@ h5 {
     gap: 122px;
 }
 
+
 #dryskin-btn,
-#normalskin-btn,
 #oilyskin-btn {
     padding: 25px;
     border-radius: 7px;
     background-color: rgb(252, 240, 240);
 
+
+}
+
+#product-box {
+    text-align: center;
 }
