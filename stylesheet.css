@@ -33,12 +33,21 @@ h5 {
     text-align: center;
 }
 
+p {
+    color: rgb(199, 198, 198);
+    font-weight: 600;
+}
+
 h5 {
     margin-top: 60px;
     font-weight: lighter;
     font-size: 20px;
 }
 
+h1 {
+    color: rgb(199, 198, 198);
+    font-weight: lighter;
+}
 
 
 /* div that contains all of the buttons */
@@ -63,3 +72,32 @@ h5 {
 #product-box {
     text-align: center;
 }
+
+
+.waviy {
+    position: relative;
+    text-align: center;
+}
+
+/* ANIMATION */
+.waviy span {
+    position: relative;
+    display: inline-block;
+    font-size: 40px;
+    color: rgb(199, 198, 198);
+    text-transform: uppercase;
+    animation: flip 2s infinite;
+    animation-delay: calc(.2s * var(--i))
+}
+
+@keyframes flip {
+
+    0%,
+    80% {
+        transform: rotateY(360deg)
+    }
+}
+
+
+
+/* MEDIA QUERIES */
